@@ -4,4 +4,4 @@ def sub_set(a):
 	p_set = p_set + [[item] + list(sset) for sset in p_set]
   return p_set[1:]
  
-print(sub_set([1,2,3]))
+print(sub_set([1,2,3,4]))
